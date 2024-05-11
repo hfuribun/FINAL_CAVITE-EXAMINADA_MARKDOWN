@@ -12,7 +12,7 @@ The following report presents findings from an ethical hacking assessment conduc
 
 ---
 
-## Vulnerabilities
+## Vulnerability Findings
 
 1. **Outdated Software Versions:**
 
