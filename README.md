@@ -70,10 +70,11 @@ The following report presents findings from an ethical hacking assessment conduc
 
 10. **Inadequate Logging and Monitoring:**
 
-   - **Critical: Insufficient Logging of Authentication Events on Domain Controllers:** Without comprehensive logs of authentication events, it becomes difficult to detect and investigate unauthorized access attempts.
+     - **Critical: Insufficient Logging of Authentication Events on Domain Controllers:** Without comprehensive logs of authentication events, it becomes difficult to detect and investigate unauthorized access attempts.
    
-   - **High: Lack of Real-Time Alerting for Anomalous Activities on Web Application Servers:** Without real-time alerting mechanisms, suspicious activities may go unnoticed, allowing attackers to persist undetected.
+     - **High: Lack of Real-Time Alerting for Anomalous Activities on Web Application Servers:** Without real-time alerting mechanisms, suspicious activities may go unnoticed, allowing attackers to persist undetected.
 
+---
 
 ## Recommendations for Remediation
 
@@ -172,23 +173,22 @@ The following report presents findings from an ethical hacking assessment conduc
      - Enforce file size limits for uploads on the image gallery website to prevent abuse of server resources.
      - Implement rate limiting or CAPTCHA challenges to mitigate the impact of potential denial-of-service attacks.
 
-10. **Inadequate Logging and Monitoring:**
+10. **Inadequate Logging and Monitoring:**  
 
-   - **Critical:**
-     - Enable detailed logging of authentication events on domain controllers, including successful and failed login attempts, and store logs securely for analysis.
-     - Implement log management solutions to centralize and automate the analysis of authentication logs, enabling timely detection and response to security incidents.
+     - **Critical:**
+       - Enable detailed logging of authentication events on domain controllers, including successful and failed login attempts, and store logs securely for analysis.
+       - Implement log management solutions to centralize and automate the analysis of authentication logs, enabling timely detection and response to security incidents.
 
-   - **High:**
-     - Configure real-time alerting for anomalous activities on web application servers, such as unusual spikes in traffic or unexpected file system changes.
-     - Integrate web application firewalls (WAFs) or intrusion detection/prevention systems (IDS/IPS) to monitor and block suspicious activities at the network level, complementing server-side logging and monitoring capabilities.
-
+    - **High:**
+       - Configure real-time alerting for anomalous activities on web application servers, such as unusual spikes in traffic or unexpected file system changes.
+       - Integrate web application firewalls (WAFs) or intrusion detection/prevention systems (IDS/IPS) to monitor and block suspicious activities at the network level, complementing server-side logging and monitoring capabilities.
 ---
 
 ## Conclusion
-Addressing the vulnerabilities outlined in this report is crucial to strengthening SoleAce's security posture and safeguarding against potential cyber threats. By implementing the recommended remediation measures, SoleAce can significantly reduce the risk of security breaches and protect its sensitive data and infrastructure from unauthorized access or malicious activities. Regular security assessments and proactive security measures are essential to maintaining a strong defense against evolving cyber threats.
+Addressing the vulnerabilities outlined in this report is crucial to strengthening SoleAce's security posture and safeguarding against potential cyber threats. By implementing the recommended remediation measures, SoleAce can significantly reduce the risk of security breaches and protect its sensitive data and infrastructure from unauthorized access or malicious activities. Regular security assessments and proactive security measures are essential to maintaining a strong defense against evolving cyber threats.  
 
 ![Ethical Hacker Signature1](leisign.jpg)  
-**Signature:** [Lea S. Cavite]  
+**Signature:** [Lea Jean S. Cavite]  
 ![Ethical Hacker Signature1](lynsign.jpg)  
 **Signature:** [Edlyn Joan Marie E. Examinada]
 
