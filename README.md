@@ -74,7 +74,6 @@ The following report presents findings from an ethical hacking assessment conduc
    
    - **High: Lack of Real-Time Alerting for Anomalous Activities on Web Application Servers:** Without real-time alerting mechanisms, suspicious activities may go unnoticed, allowing attackers to persist undetected.
 
----
 
 ## Recommendations for Remediation
 
@@ -188,7 +187,7 @@ The following report presents findings from an ethical hacking assessment conduc
 ## Conclusion
 Addressing the vulnerabilities outlined in this report is crucial to strengthening SoleAce's security posture and safeguarding against potential cyber threats. By implementing the recommended remediation measures, SoleAce can significantly reduce the risk of security breaches and protect its sensitive data and infrastructure from unauthorized access or malicious activities. Regular security assessments and proactive security measures are essential to maintaining a strong defense against evolving cyber threats.
 
-![Ethical Hacker Signature1](leisign.jpg)
+![Ethical Hacker Signature1](leisign.jpg)  
 **Signature:** [Lea S. Cavite]  
 ![Ethical Hacker Signature1](lynsign.jpg)  
 **Signature:** [Edlyn Joan Marie E. Examinada]
